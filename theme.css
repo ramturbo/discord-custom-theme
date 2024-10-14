@@ -1,0 +1,130 @@
+/* Root variables for main colors */
+:root {
+    --main-bg-color: #000000; /* Jet black */
+    --secondary-bg-color: #1a1a1a; /* Dark gray for secondary elements */
+    --accent-color: #ffccde; /* Pastel pink accent */
+    --text-color: #ffffff; /* White text */
+    --link-color: #ffccde; /* Link color */
+    --hover-bg-color: #ae2e4b; /* Darker pink for hover */
+    --dm-click-color: #aec6ff; /* Pastel blue for clicked DM names */
+    --font-family: 'Poppins', sans-serif; /* Poppins font */
+}
+
+/* General Settings */
+body {
+    background-color: var(--main-bg-color); /* Jet black background */
+    font-family: var(--font-family); /* Poppins font */
+}
+
+/* Sidebar and Channel List */
+.sidebar-2K8pFh {
+    background-color: var(--secondary-bg-color); /* Dark gray for sidebar */
+    border-right: 1px solid var(--accent-color); /* Pastel pink border */
+}
+
+.sidebar-2K8pFh .container-2cd8Mz {
+    color: var(--text-color); /* White text */
+}
+
+.sidebar-2K8pFh .container-2cd8Mz:hover {
+    background-color: var(--hover-bg-color); /* Darker pink on hover */
+}
+
+.sidebar-2K8pFh .children-19S4PO {
+    background-color: var(--secondary-bg-color); /* Dark gray for channel list */
+}
+
+.channels-Ie2l6A {
+    background-color: var(--secondary-bg-color); /* Dark gray for channels */
+    color: var(--text-color); /* White text */
+}
+
+.channels-Ie2l6A:hover {
+    background-color: var(--hover-bg-color); /* Darker pink on hover */
+}
+
+/* Chat Area */
+.chat-3bRxxu {
+    background-color: var(--main-bg-color); /* Jet black for chat area */
+    color: var(--text-color); /* White text */
+}
+
+/* Chat Input Area */
+.textArea-12jD-V {
+    background-color: var(--secondary-bg-color); /* Dark gray for input area */
+    border: 1px solid var(--accent-color); /* Pastel pink border */
+    color: var(--text-color); /* White text */
+}
+
+.textArea-12jD-V:hover {
+    background-color: var(--hover-bg-color); /* Darker pink on hover */
+}
+
+/* Messages */
+.message-2qnXI6 {
+    background-color: var(--secondary-bg-color); /* Dark gray for messages */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding around messages */
+    margin-bottom: 8px; /* Space between messages */
+}
+
+.message-2qnXI6:hover {
+    background-color: var(--hover-bg-color); /* Darker pink on hover */
+}
+
+.markup-2BOw-j {
+    color: var(--text-color); /* White text for message content */
+}
+
+/* Links */
+a {
+    color: var(--link-color); /* Pastel pink for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: var(--accent-color); /* Pastel pink on hover */
+}
+
+/* Button Styling */
+.button-38aScr {
+    background-color: var(--accent-color); /* Pastel pink background for buttons */
+    color: var(--secondary-bg-color); /* Dark gray text on buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.button-38aScr:hover {
+    background-color: var(--hover-bg-color); /* Darker pink on hover */
+    color: var(--text-color); /* White text on hover */
+}
+
+/* Member List */
+.members-1998pB {
+    background-color: var(--secondary-bg-color); /* Dark gray for member list */
+    border-left: 1px solid var(--accent-color); /* Pastel pink border */
+}
+
+.member-3H6Hi1 {
+    background-color: var(--secondary-bg-color); /* Dark gray for member items */
+    color: var(--text-color); /* White text */
+}
+
+.member-3H6Hi1:hover {
+    background-color: var(--hover-bg-color); /* Darker pink on hover */
+}
+
+/* Emojis */
+.emojiPicker-3j58wQ .emojiButton-3nQnNw {
+    background-color: var(--secondary-bg-color); /* Dark gray for emoji buttons */
+    color: var(--text-color); /* White text */
+}
+
+.emojiPicker-3j58wQ .emojiButton-3nQnNw:hover {
+    background-color: var(--hover-bg-color); /* Darker pink on hover */
+}
+
+/* Direct Message profile (clicked name) */
+.channel-1.selected {
+    background-color: var(--dm-click-color); /* Pastel blue for clicked DM names */
+    color: var(--text-color); /* White text */
+}
